@@ -1,3 +1,4 @@
+
 #include "stdafx.h"
 #include <iostream>
 #include <string>
@@ -9,6 +10,10 @@ struct Pravokutnik
 }prav1, prav2;
 
 double opseg(double a, double b) {
+	return 2 * (a + b);
+}
+
+double povrsina (double a, double b) {
 	return 2 * (a + b);
 }
 
